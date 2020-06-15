@@ -1,0 +1,38 @@
+.chat-container {
+  display: flex;
+  position: relative;
+}
+
+.user-list {
+  /* height: 200px; */
+  width: 200px;
+  min-width: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+  word-break: break-all;
+}
+
+.custom-container {
+  /* width: 100%; */
+  /* background-color: antiquewhite; */
+  /* height: 100%; */
+}
+
+.chat-winow {
+  width: 100%;
+  height: 70%;
+  padding-top: 12px;
+  background-color: #F4F6F6;
+}
+
+.chat-input {
+  width: 100%;
+  height: 30%;
+  /* background-color: blue; */
+}
+
+.ant-list-bordered {
+  border: none;
+  border-radius: 2px;
+  background-color: #F8F9F9;
+}

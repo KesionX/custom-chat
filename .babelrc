@@ -1,0 +1,37 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    "transform-react-jsx",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "helpers": true,
+        "regenerator": true,
+        "useESModules": false
+      }
+    ]],
+    "env": {
+      "browser": {
+        "presets": [
+          [
+            "@babel/preset-env", {
+            "targets": {
+              "browsers": ["last 2 versions", "safari >= 7"]
+            }
+          }
+          ]
+        ]
+      },
+      "node": {
+        "presets": [
+          [
+            "@babel/preset-env", {
+            "targets": {
+              "node": "current"
+            }
+          }
+          ]
+        ]
+      }
+    }
+}

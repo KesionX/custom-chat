@@ -1,0 +1,112 @@
+.sign-wrapper {
+  width: 316px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  padding: 25px 27px;
+  position: relative;
+  height: 353px;
+  box-sizing: border-box;
+}
+.sign-close {
+  position: absolute;
+  color: #909399;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  padding: 0;
+  background: 0 0;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  font-size: 16px;
+  transform: rotate(45deg);
+}
+.sign-close::before {
+  content: "";
+  background: #909399;
+  display: block;
+  width: 10px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.sign-close::after {
+  content: "";
+  background: #909399;
+  display: block;
+  width: 10px;
+  height: 1px;
+  transform: rotate(90deg);
+  left: 0;
+  top: 0;
+}
+.sign-wrapper h1 {
+  font-size: 24px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(63, 63, 63, 1);
+}
+.sign-username,.sign-password {
+  width: 100%;
+  height: 31px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  border-radius: 3px;
+  border: 1px solid rgb(200, 199, 199);
+  margin-top: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sign-username img,.sign-password img {
+  width: 17px;
+  height: 17px;
+  float: left;
+  margin-left: 10px;
+}
+.sign-username input,
+.sign-password input {
+  width: 85%;
+  border: 0;
+  line-height: 27px;
+  height: 29px;
+  padding: 1px 2px;
+  outline: none;
+}
+
+.sign-forget {
+  margin-top: 16px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(199, 198, 198);
+}
+.sign-wrapper button {
+  width: 100%;
+  height: 37px;
+  border: 0;
+  float: left;
+  margin-top: 45px;
+  color: #fff;
+  font-size: 16px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  background: rgba(85, 187, 248, 1);
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+.sign-err-msg {
+  color: red;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+}

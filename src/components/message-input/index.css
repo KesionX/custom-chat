@@ -1,0 +1,54 @@
+.message-input-container {
+  height: 100%;
+  background-color: #F4F6F6;
+  position: relative;
+}
+
+.message-operation-container {
+  height: 36px;
+  /* background-color: #F4F6F6; */
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  padding-left: 20px;
+  position: relative;
+}
+
+.message-operation-emjio {
+  width: 24px;
+  height: 24px;
+  background-image: url('./res/talk_emjio.png');
+  background-size: 24px 24px;
+  cursor:pointer;
+}
+
+.message-operation-container-line {
+  content: "";
+  display: block;
+  /* background-color: #EBEDEF; */
+  background-color: #EBEDEF;
+  height: 1px;
+}
+
+.message-input-textarea-container {
+  /* height: /%; */
+}
+
+.message-input-textarea {
+  width: 100%;
+  background-color: #F4F6F6;
+  height: 70%;
+  color: #333;
+  padding: 0 20px;
+  resize: none;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+
+}
+
+.message-input-textarea-footer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

@@ -1,0 +1,9 @@
+.contant-container {
+  display: flex;
+  background-color: blue;
+}
+.content-menu {
+  width: 200px;
+  background-color: wheat;
+  /* height: 500px; */
+}

@@ -1,0 +1,14 @@
+.home-wrapper {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.container {
+  /* 消除img间距 */
+  font-size: 0;
+}
+.container img{
+  width: 100%;
+  height: 100%;
+}
